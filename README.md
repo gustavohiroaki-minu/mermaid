@@ -1,9 +1,7 @@
 # mermaid
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+flowchart LR
+  A e1@==> B
+  e1@{ animate: true }
 ```
