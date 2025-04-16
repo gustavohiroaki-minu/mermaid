@@ -1,7 +1,9 @@
 # mermaid
 
 ```mermaid
-flowchart LR
-  A e1@==> B
-  e1@{ animate: true }
+flowchart TB
+    A --> C
+    A --> D
+    B --> C
+    B --> D
 ```
